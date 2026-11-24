@@ -12,6 +12,13 @@ Whatever gets prepended mirrors the string's tail, so the characters that *don't
 
 **Complexity:** O(n) time and space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
