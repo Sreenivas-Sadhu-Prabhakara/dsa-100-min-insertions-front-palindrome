@@ -37,5 +37,5 @@ func reverse(s string) string {
 
 func main() {
 	fmt.Println(MinInsertions("abcd"))     // 3: prepend dcb
-	fmt.Println(MinInsertions("aacecaaa")) // 2: prepend aa
+	fmt.Println(MinInsertions("aacecaaa")) // 1: prepend a
 }
